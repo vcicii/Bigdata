@@ -6,7 +6,7 @@ hadoop fs -mkdir -p /user/student/wjy/input
 hadoop fs -put HTTP_20130313143750.dat /wjy/input
 ```
 2. 将 MapReduce 程序提交给 Yarn 集群
-3. ```bash
+```bash
 hadoop jar BigData-1.0-SNAPSHOT.jar com.jy.flowCount.JobMain
 
 yarn jar BigData-1.0-SNAPSHOT.jar com.jy.flowCount.JobMain
